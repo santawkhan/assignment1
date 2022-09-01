@@ -11,7 +11,7 @@ body {
     color: orange;
 }
 
-section {
+.flexible {
     display: flex;
 }
 
@@ -57,4 +57,28 @@ section {
     background-image: url(new/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+
+#color {
+    color: orange;
+}
+
+#colour {
+    color: orange;
+}
+
+.experience {
+    background-image: url(new/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience {
+    width: 40%;
+    box-shadow: 10px 10px 40px orchid;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-left: 10px solid;
+
 }
